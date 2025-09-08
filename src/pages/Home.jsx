@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import taxImg from "../assets/tax.png";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import bg_img from "../assets/footer_bg.jpg";
 
 const Home = () => {
   return (
@@ -161,21 +162,32 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="bg-gradient-to-r from-black via-gray-900 to-green-900 text-white py-20 ">
-        <div className="max-w-5xl mx-auto text-center px-6">
+      {/* Call to Action & bg Image */}
+
+      <section className="h-[500px] relative  py-40">
+        <section
+          className="absolute inset-0 from-black/80 via-gray-900/80 to-green-900/80 text-white bg-cover bg-center grayscale "
+          style={{
+            backgroundImage: `url(${bg_img})`,
+          }}
+        />
+
+        {/* Overlay for dark effect */}
+        <div className="absolute inset-0  bg-gradient-to-b from-black via-black/70 to-green-900/70 "></div>
+
+        <div className="relative max-w-5xl mx-auto text-center px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to take charge of your finances?
           </h2>
-          <p className="text-lg mb-8 text-gray-300">
+          <p className="text-lg mb-16 text-gray-300">
             Join thousands of learners using Salaryfy.io to understand their
             salaries and save more.
           </p>
           <Link
             to="/calculator"
-            className="px-8 py-4 bg-green-500 text-white font-semibold rounded-lg shadow hover:bg-green-400 transition bg-gradient-to-r from-green-400 via-pink-500 to-blue-600 animate-border"
+            className="px-8 py-4 bg-green-500 text-white font-semibold rounded-lg shadow hover:bg-green-400 transition bg-gradient-to-r from-green-400 via-pink-500 to-blue-600 animate-border  "
           >
-            Start Now 
+            Start Now
           </Link>
         </div>
       </section>
