@@ -21,7 +21,7 @@ const SalaryCalculator = () => {
 
   return (
     <div className=" flex items-center justify-center  from-black via-gray-900 to-green-950 px-4">
-      <div className="bg-gradient-to-br from-green-900/90 to-black/90 backdrop-blur-md shadow-2xl p-8 rounded-2xl w-full max-w-lg border border-green-800">
+      <div className="bg-white/10 from-green-900/90 to-black/90 backdrop-blur-md shadow-2xl p-8 rounded-2xl w-full max-w-lg border border-green-800">
         {/* Header */}
         <div className="flex items-center gap-3 mb-6">
           <Calculator className="w-8 h-8 text-green-400" />

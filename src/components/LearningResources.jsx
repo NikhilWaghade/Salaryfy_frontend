@@ -1,25 +1,38 @@
 const LearningResources = () => {
-  const resources = [
-    {
-      title: " How to Save 20% of Your Salary",
-      desc: "Learn smart techniques to manage monthly expenses and grow savings.",
-    },
-    {
-      title: " Best Investment Options for Beginners",
-      desc: "Understand SIPs, mutual funds, and safe investment strategies.",
-    },
-    {
-      title: " Understanding PF & Gratuity",
-      desc: "Know how provident fund and gratuity impact your long-term wealth.",
-    },
-  ];
+const resources = [
+  {
+    title: "How to Save 20% of Your Salary",
+    desc: "Learn smart techniques to manage monthly expenses and grow savings.",
+  },
+  {
+    title: "Best Investment Options for Beginners",
+    desc: "Understand SIPs, mutual funds, and safe investment strategies.",
+  },
+  {
+    title: "Understanding PF & Gratuity",
+    desc: "Know how provident fund and gratuity impact your long-term wealth.",
+  },
+  {
+    title: "Building a Strong Credit Score",
+    desc: "Tips to improve credit history and unlock better loan opportunities.",
+  },
+  {
+    title: "Tax Saving Made Simple",
+    desc: "Explore deductions, exemptions, and legal ways to reduce your taxes.",
+  },
+  {
+    title: "Emergency Fund Planning",
+    desc: "Why having 6 months of expenses saved can protect your financial future.",
+  },
+];
+
 
   return (
-    <div className="grid md:grid-cols-3 gap-8 mt-10">
+    <div className="grid md:grid-cols-3 gap-8 mt-10 ">
       {resources.map((res, i) => (
         <div
           key={i}
-          className="bg-gradient-to-br from-green-900/90 to-black/90 border border-green-700 p-6 rounded-xl text-white shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+          className=" border border-green-700 p-6 rounded-xl text-white shadow-lg hover:scale-105  duration-300 ease-in-out bg-gradient-to-r from-gray-900 to-black hover:shadow-xl hover:shadow-green-500/20 transition"
         >
           {/* Title */}
           <h3 className="text-xl font-bold mb-3 bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">

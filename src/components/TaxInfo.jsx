@@ -2,7 +2,7 @@ import { FaRupeeSign, FaShieldAlt, FaHeartbeat } from "react-icons/fa";
 
 const TaxInfo = () => {
   return (
-    <div className="bg-gradient-to-br from-green-950 via-black to-green-900 border border-green-700/40 shadow-lg p-6 rounded-xl text-white max-w-2xl mx-auto">
+    <div className="bg-white/10   border border-green-700/40 shadow-lg p-6 rounded-xl text-white max-w-2xl mx-auto">
       {/* Heading */}
       <h2 className="text-2xl font-bold mb-6 text-center bg-gradient-to-r from-green-300 to-green-500 bg-clip-text text-transparent drop-shadow-sm">
          Indian Tax Slabs (FY 2025)

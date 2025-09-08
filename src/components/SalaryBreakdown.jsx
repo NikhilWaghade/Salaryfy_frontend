@@ -21,7 +21,7 @@ const SalaryBreakdown = () => {
       <div className="bg-white/10 backdrop-blur-md border border-green-500/30 shadow-lg p-8 rounded-2xl w-full max-w-lg text-center text-white">
         {/* Heading */}
         <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-green-400 to-green-600 bg-clip-text text-transparent">
-          💰 Salary Breakdown
+          Salary Breakdown
         </h2>
 
         {/* Input */}
